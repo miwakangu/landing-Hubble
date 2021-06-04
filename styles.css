@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+body{
+  background:url("images/bg-desktop.svg") no-repeat ;
+  background-size: cover;
+    background-color: #674BAF;
+  color:#fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+ h1{
+   font-weight: 600;
+   font-size: 1.4rem;
+   line-height: 1.5;
+ }
+ h2{
+   font-weight: 300;
+   font-size: 1rem;
+   line-height: 1.5;
+ }
+.container{
+
+text-align:center;
+
+
+}
+.img-logo{
+  text-align: center;
+}
+.logo{
+  margin:3.0em auto 1.0em ;
+  text-align: left;
+  padding: 0 0 0 1.5rem;
+
+}
+.header
+{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+}
+.hero{
+
+  width: 24rem;
+  margin: 0 0 3rem 0;
+  justify-content: center;
+}
+
+.title{
+  margin:1.5rem 0;
+}
+.fmenu{
+  margin: 2rem 0;
+}
+.register{
+
+margin:3.0rem 0 3.5rem 0;
+width: 10em;
+height: 4em;
+border-radius: 25px;
+border: 0;
+color:#727272;
+font-family: "Poppins";
+font-size: .9rem;
+
+}
+
+
+#footer{
+  margin: 1 auto 40px auto;
+  text-align:center;
+  height: 3rem;
+  align-items: center;
+  display: flex;
+}
+.socials{
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 3rem 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.social-icon{
+align-items: center;
+margin: auto;
+}
+
+@media only screen and (min-width:1250px) {
+ .header{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+ .fmenu{
+   margin-left:5rem;
+ }
+ .fmenu h2{
+   pad
+ }
+ .hero{
+
+   width: 42rem;
+   margin: 0 0 3rem 0;
+   justify-content: center;
+ }
+ h1{
+   font-weight: 700;
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+ h2{
+   font-weight: 300;
+   font-size: 1.3rem;
+   line-height: 1.5;
+ }
+ .register{
+cursor: pointer;
+ margin:3.0rem 0 3.5rem 0;
+ width: 8em;
+ height: 3em;
+ border-radius: 27px;
+ border: 0;
+ color:#fff;
+ font-family: "Poppins";
+ font-size: 32px;
+ background: #A770EF;  /* fallback for old browsers */ }
+
+.logo{
+  padding: 3rem;
+}
+.img-logo{
+  width:25rem;
+}
+#footer{
+  text-align: center;
+}
+.social-icon{
+}
